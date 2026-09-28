@@ -77,7 +77,7 @@ img {
   max-width: 100%;
   position: relative;
   background-color: var(--color-imperial-charcoal);
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+  box-shadow: none;
   overflow-x: hidden;
 }
 
