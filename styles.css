@@ -589,28 +589,63 @@ img {
 }
 
 @media (max-width: 768px) {
+  /* Hero section full screen on mobile */
   .hero-slider-section {
-    height: 480px;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 560px;
+  }
+
+  .slide-client-ask {
+    padding: 2.5rem 1.8rem;
+  }
+
+  /* Responsive mobile background images for slides 2, 3, and 4 */
+  .slide-story-2 {
+    background-image: url('Mob2.jpg') !important;
+    background-position: center bottom;
+  }
+
+  .slide-story-3 {
+    background-image: url('Mob3.jpg') !important;
+    background-position: center bottom;
+  }
+
+  .slide-story-4 {
+    background-image: url('Mob4.jpg') !important;
+    background-position: center bottom;
   }
 
   .slide-story {
-    padding: 2rem 1.8rem;
+    padding: 2rem 1.6rem 4rem;
+    align-items: flex-end;
+    justify-content: center;
   }
 
   .story-content-box {
     max-width: 100%;
+    width: 100%;
   }
 
   .client-ask-title {
-    font-size: 36px;
+    font-size: 34px;
+    line-height: 1.18;
+    margin-bottom: 1.5rem;
+  }
+
+  .client-ask-label {
+    font-size: 20px;
+    margin-bottom: 0.8rem;
   }
 
   .client-ask-desc {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.45;
   }
 
   .story-heading-russian {
-    font-size: 38px;
+    font-size: 36px;
+    line-height: 1.0;
   }
 
   .story-body-text {
